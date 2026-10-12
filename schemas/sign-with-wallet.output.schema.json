@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "key-management-services-section/sign-with-wallet-output",
+  "title": "signWithWalletOutput",
+  "description": "signWithWallet()'s result: either a refusal datum (the payload was outside the mandate, or the passphrase was missing) or the signed bytes plus a receipt. Never carries private key material.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "signed",
+        "reason"
+      ],
+      "properties": {
+        "signed": {
+          "const": false
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "signed",
+        "id",
+        "chain",
+        "signature",
+        "receipt"
+      ],
+      "properties": {
+        "signed": {
+          "const": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "chain": {
+          "enum": [
+            "base",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "hive",
+            "hive-engine"
+          ]
+        },
+        "signature": {},
+        "receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

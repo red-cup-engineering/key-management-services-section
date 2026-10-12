@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "key-management-services-section/custody-verification",
+  "title": "CustodyVerification",
+  "description": "The result of verify-set-of-wallet-custody.mjs: agreed/mismatch/missing per WalletRegistry row's custody entry.",
+  "type": "object",
+  "required": [
+    "type",
+    "version",
+    "verifiedAt",
+    "counts",
+    "rows"
+  ],
+  "properties": {
+    "type": {
+      "const": "CustodyVerification"
+    },
+    "version": {
+      "const": 1
+    },
+    "verifiedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "agreed",
+        "mismatch",
+        "missing"
+      ],
+      "properties": {
+        "agreed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mismatch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "missing": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "chain",
+          "address",
+          "custodyKind",
+          "host",
+          "status",
+          "detail"
+        ],
+        "properties": {
+          "chain": {
+            "enum": [
+              "base",
+              "ethereum",
+              "arbitrum",
+              "avalanche",
+              "hive",
+              "hive-engine"
+            ]
+          },
+          "address": {
+            "type": "string"
+          },
+          "custodyKind": {
+            "enum": [
+              "env-on-host",
+              "keystore-file",
+              "kms",
+              "hardware",
+              "founder-wallet-app",
+              "unknown"
+            ]
+          },
+          "host": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "agreed",
+              "mismatch",
+              "missing"
+            ]
+          },
+          "detail": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

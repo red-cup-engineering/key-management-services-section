@@ -1,0 +1,6364 @@
+{
+  "type": "WalletRegistry",
+  "version": 1,
+  "derivedAt": "2026-09-05T16:52:38.561Z",
+  "wallets": [
+    {
+      "chain": "base",
+      "address": "0x00121415C8Fb78Cac877A38D1674dE1e95EDB820",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0087497033d33C6eA5DdC8e822C723F4D0A90c29",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "CLOUDFLARE_R2_BARE_CEDAR_FOG_GIT_LFS_ACCESS_KEY_SECRET",
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "CLOUDFLARE_R2_BARE_CEDAR_FOG_GIT_LFS_ACCESS_KEY_SECRET",
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "CLOUDFLARE_R2_BARE_CEDAR_FOG_GIT_LFS_ACCESS_KEY_SECRET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x01d207b0a8aAa704c3D815F145709e3F8810dC31",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x01efd40106962297846649bc14a462600D75e5bC",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0291ff9223b6858fa8940D8fD88e4A7df35A22b7",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x05199C088425d8C009839093c4D4Be4ECf37DA08",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x071C6a56C0FF7a9365137B3118eF03c179cE6768",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0867eFBd9695Afbd3c557ca35Cf8137617A92a8b",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0a53E3B2Ee6597B2885decab98579d2ee9879E02",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0c4A3B46cDC3b11a50F20f7D5e8D890C241c2215",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0Cb567528f3b91B26B8CC8dfe99C0dBb3d1c0054",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0D000a4CE3c114b864bd84D4CC2CcfbD88F0E84C",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x0D7EF345C0697e1c5BAC4BFCf1aA692b5ADCE4e1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x10A03A89C7c03C3F7053473b9211940fD4639333",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x11c575087cc453992ec150885889ee69c580eA45",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x14c998F3da26044E53E8987C5B039080e0e5Bfc8",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1555b3c833162c557e832Ec2496ec9Fd54B07859",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x181AaA0cF544a2E14b593Db34546bC1F054C37f7",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1928aC9D76B9D5e59d74C3F59e1d912B4DCBD529",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1b543f69c20567308EF87AA9676b5dfB837A104c",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1B97C97b689d07f22F7F67BfBdD7B5f7AC00faB4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1C3cd960A9F0878A7AAfcEa8AB65358CcB943bb1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1d403d3979A2Ee85664c58b9FE6499eE76F4fF7B",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x1E9c0E258fC653eB2D0EA3899CC42f962B78Fc75",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x207393A7bEbf0117ff6E3479aeCA57692f860328",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x224C08A8526751887a83e2711B167f890c6D078d",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "keystore-file",
+        "host": "bare-cedar-fog",
+        "locator": "/home/emsenn/.config/561-group/keys/base/yanagi-wallet.json",
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "keystore-file",
+          "host": "bare-cedar-fog",
+          "locator": "/home/emsenn/.config/561-group/keys/base/yanagi-wallet.json",
+          "reference": null,
+          "derivationPath": null
+        },
+        {
+          "kind": "keystore-file",
+          "host": "bare-cedar-fog",
+          "locator": "/home/emsenn/.config/561-group/keys-backup/keys/base/yanagi-wallet.json",
+          "reference": null,
+          "derivationPath": null
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        },
+        {
+          "kind": "operator",
+          "locator": "/home/emsenn/.config/561-group/keys/base/yanagi-wallet.meta.json"
+        }
+      ],
+      "lastSeen": "2026-10-02T16:24:38.361Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x229650b091Ea8313A6Bdf3E9FDC0851D30cCb08e",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x24A4eF44BeFa4Bc171ef4D1d941726b8a2759D42",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x25DB07548355803b7Dd0fE4909bB28429fA08d9e",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x2647a42698f34951d3d5B0695dC80ffe0E08b732",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x28d5eC051D1EA7811A1744aa6521922E08b5bAD1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x294953AB7bF8Ac0960131bc850bB8Ca5F09666d4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x296E25037F5E5C68a0CA6382eFe26f55c8d882e4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x2b06A086d096dd5bdd22F507Ca6E2737d00e7CFF",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x2eeCe47F848206d47e3646131D91d0CB2c276160",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x2Ff17840db2E2006DEB51128Bc8E2f5301DDe1E0",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x30fE64634DFeB6c8520ADd002c45F1953a896fFc",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x3113B7187c205ca0E2A79691Ca583FA4A6EFdf34",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x32886F6F361C1d570255c2762967A2e41D0E9B1a",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x32E1D3F6DEB5E7998670c703DA6587fB463558B0",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x337144e9Bc938c220658d081D86631562A9a586D",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x348c713E1C513576D6e24bC8a55f9d8b97C78508",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x366643642c13dD8A49B63f2961b4D50E9415A011",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x3908739f6af792f14282df2c695a0773C396D4eB",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x3b7d819730A3EaB08D6DE4284d4253F78735B0A5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x3B86773f0D7Dd2eEba86ec2CC88A72740908c0CD",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x400f333dD4E63C543E9c9EaC79990E4eA699Cf60",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "WENANO",
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "WENANO",
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "WENANO"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x40766b8fFc56c9FE383aaaf78755E232C65C3Aac",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x422AED8319ACD26614cFff2eb27e72f2e389484D",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x42F72C0a340A4A55C082Fe42483e87691D2bff64",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x43e771217c49927Cb49Eb47fFA4F04D65b90cdF3",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x43E9efF7db919dA6F18A96c293100df060cE572B",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x44825039D1d33F7093b8cb6e8EdA44E04e21BaE9",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x448FFb8168450F25D29e27C49794d8629e7Ce2Ef",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x461f67c9D39A54979C658D5e03BAE1b734e44736",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x46BC690DED171c2C826d903472d38004d812c391",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x4c00b1Ae9F00785b699EeF5559B35e1452C72C17",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x4CAD18f228fCa69dc001737ec959cee51B3d508d",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x4d2957ca43a24b11924B7051cabe3027190122C0",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x4D945cbA0F3eCDfc875C7d5af9BAD631B0e72A5b",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x4Dcd66a1D88B8089b4b6d63524B0D1DD8d0384CF",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x511886c640D671789e72F81BCA5C305F91Ae0C5C",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x51Cf204E62979B572976e79eaDaf94afb672c11E",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x55113f1DfDE200D18d25C08A4922074c6D2383d7",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x596218E494FD7923a2aE38A23C05C9996301eca2",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x5c461e08A3e60Dd64a6B7140d9Cf4CfD21ff1130",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": "GIT_ANT_CUSTOMER_ACCOUNT",
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": "GIT_ANT_CUSTOMER_ACCOUNT",
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-public-identifier",
+          "locator": "GIT_ANT_CUSTOMER_ACCOUNT"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x5de7d5Ab68972366C7F561a126D68F2bddA758Af",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x5f73448973d9b6812442B0984D2A6D5697F55248",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x60a6A20394a69ec56b20B23DB711224786Cc4fA2",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x629609DdEfacD878b5B8Bff55d1b356DB202f30E",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x6581aEE3C15193d99ed1Fa6634b91ff1f0a2D5eD",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x65c3112bCBBa16d0A58eC87c110d89c303eDBe02",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x669f86DA1F0021EFaA74aB8bA191B7f8229cF6a0",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x66bD49F0deb14Db608F5f208683c502BCb4971A5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x677374f8E07F726c169E5f3D4C107cDD33A022C4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x67965fc4D79AB253E074fA3E1CD5E34eb2977C5d",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x68Cc21Ca687CBD22541C0275424888Ad73A3905E",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x6Ac68e8bf8f13F72C85A113FA5D3Bb9F89D87705",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x6B800055CB71F18b0FD60935581505A7282Af64b",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x7108E2E4847fd8CE44f0437660e7EBEf63D2D403",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x73B1270b6514586f915B5277540984B1d44c83b4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x759CD908fC6385dd82B0dabDe15c730f04d548Be",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x762A7E335d159750f0954b95a3763890347E16c0",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x78523bBeF29bB96ed5075c45d80766F29F19E6e2",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x7A4a12cbaa02FaE7a9186b70A256dadCF2E725AC",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x7c9A5Bb275567Ea9F7E339Bc13da7Db5D92d9e19",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": "GIT_ANT_PROVIDER_ACCOUNT",
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": "GIT_ANT_PROVIDER_ACCOUNT",
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-public-identifier",
+          "locator": "GIT_ANT_PROVIDER_ACCOUNT"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x7f74A8254059737AcEEe9A4A4941D63a43EccE8A",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x7FC1A198A4C32ed6bb67EDC6Faa3E7C6ef533d0c",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x82495695A5afFe0219B79690b524B4002886e5e3",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x8364be64F56DEA53f5ACb02798E9C6A34eC35c57",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x845c36EF48f2AD7a507cE1C23692ad219725D9d5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x848e61dE9b7892b397Ce7ab34d7CB896222355B9",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x859380DD5163c06BE392d90c8C4Aa6f103dA3Df7",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x85bf6470c746Db4EDb731D0eF511AdC8e4A89494",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x87feF142FA3AF0c1E6D2908E0A916116944EA35D",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x885A4e4713Aa764cC84D8a4e9eB53bbC4E8350DB",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x8dabF1A43DE91eA486792f0fC5959Ed2bb9C5256",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x8fDaF5Ec36648976732F25564f9E964182EaA923",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x90800650084e6D2a633Ec99163E99ca0f78cfac1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x916502bD235CBABdd7aC4168ebac378e155eCc58",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x92DCFAAE45a9878f0A046fcC7d0c73680e304C02",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x92eABF4FB841c9f78797954151163fc631B16bc8",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x933e2F22afC67cd60A0959E66ce48E44935bEc5a",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x9384f3d3F8260979Aa9262f1ECF43adCE6Ed2202",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x93B157b93F9e078C3f7F1C3A66716d9ed3e3eA66",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x9731FE55d30471623cfC8170e440D069d25c49E5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x9840554d61Cb82F9991b0fF5a21ED2333274f65C",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x9ac55173d779E9cB3b65c7F8F76b131C503F1e37",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x9bd99007c377045425c249c94C1E2E30b59fe424",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0x9F4a46aB52d10D7d694283082c63aD2f4c7137fD",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xa0E9109a58BbbC6166fE4388521581d1c0D45208",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xa307658Bd880E13a206f665648Fad9410f375617",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xa673ABEC1543D9C6F0DF5a6C26713c3017Ab6211",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xA8605cf06ee1c229245CbF2F604770b5aaCE705e",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xA8F44417C94102666795700D7b4f3125f30eef96",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xA9A2995A40b3590E25b080aDA1C4Fb3F9F45853f",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xAB597CA11AFF10a8ee74075207Ec0A6Ea719C4F1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xaC5360Ba566128E778709Ad630d87eC5a3e2Ca0a",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xAd8825Ad5D9A29F732edbbb06a64CfAC9FC77A07",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xAe112689e4B01B4a163406C966F52e935D2B3E88",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xaE3c2Dc99f3De8174AaD8915641331fBF10Efa09",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xaf24fa75334B07B3c2783851462e67115324bF22",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xB14B6edAAB3F59Fa3197deA94B8CcC2435aDe26F",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xb272bDC42c096163D4c326Dd566C68a842d48A17",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xb438841A085d05Fa9F4Ce85A311F06CFE2302C0f",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xb80b677e577dF95E8BcF0FA5b13d0f289bBC268f",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xb88350e305a503aF1d9394220E1Ab9bb7111dC1E",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xB9C6c276BC560dB5da6fC25ECD4800B525a94Bf5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xBb85612C019e45877869aB66F62658b65B56fDCe",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xBEAa4B1Dba03C495aD3097C2d383FB3E02f72C27",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xBF3E1cfd8E9c320950647ffEa58a38Ca5213eac4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xC04FBFDFc755e3A624E48c3C93ef9C4Db8DA35e1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "XYO_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "XYO_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "XYO_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xc33255889Cf124aE5FB8556854670012fe932b75",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xc3feAa417EDf4f4d51FdEa79E8b6a8809eb11cA7",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xC4Fd5DF80EF34d11ef9fCf8f72007Aa07B1Ba614",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xCB0697ceFBca11Ae1b6ef56283845Af5D1cd04F3",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xCb55D5C07674aaD354702E0e178630080eB1Cc68",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xcc69495B194D20D10CF63bDE499Aa4E3B7966eF7",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xcCd537e49678e11D4898E03Cd2B92099BaC77a34",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xCd6FA157359E3b9F88C31B95DD63A3D73A1F34cA",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "keystore-file",
+        "host": "bare-cedar-fog",
+        "locator": "/home/emsenn/.config/561-group/keys/base/tidepool-pool-base.json",
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "keystore-file",
+          "host": "bare-cedar-fog",
+          "locator": "/home/emsenn/.config/561-group/keys/base/tidepool-pool-base.json",
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "keystore-file",
+          "locator": "/home/emsenn/.config/561-group/keys/base/tidepool-pool-base.json"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xCec0600689a9F875d105DEC8827B0ad174c313F6",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": "UNION_EVM_HOLONOMY_LEDGER",
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": "UNION_EVM_HOLONOMY_LEDGER",
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-public-identifier",
+          "locator": "UNION_EVM_HOLONOMY_LEDGER"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xD5826a7d088662B1b7930D59F772B88ffa9f72Bc",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xd59788e3C65fbC1C1eb433F4301F3fe68Db52d92",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "GOSH_WOULDNT_YOU_KNOW_IT_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xd748F5B927C41ECf799439e1e2DC2b43B3d6C192",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xD81dC4D21D0daD6c013B57e0a3F837279F0121ed",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xd8D0ec6f3e76f3a62250d82A36316f39a4B95799",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xd919eDC22c4cFB70FCaA28fF3754923EFa1378e0",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xD9353A0d91F34b51a6d2e402f57921c9818Fe7b5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xDA67C7aAe17fA767153bBcEF1b3e72Be979B7f29",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xDb39591F31ee9502Ca04498def44d006fDcD6269",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xDc7d849bDc04Bb52ab71f0C70733A49CD67077E4",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "BANANO_PHRASE",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BANANO_PHRASE",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "BANANO_PHRASE"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xDd2544C2D3bb7A99A5D230C601c7b87778E887c1",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "NATRIUM",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/4"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "NATRIUM",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/4"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "NATRIUM"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE0AC0D05d36788ea07126340400Bf4B52A39CC6b",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xe29a0f286F750408df7805e9eF6e96c2776067C6",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/7"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/7"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE2a10079E7b0B02F60ADde8F97dbba73CB60B665",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE41cc5Ec5aFfe3f054Eb07f61a8D0eF670e842CE",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MAIN_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MAIN_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MAIN_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xe42914b16F6313837A7EeF93148908dd80d7c3Fe",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "DECENTR",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "DECENTR",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "DECENTR"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE48405cbF06B8592b6b8d1821f5888c1a58cB9Bb",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE60A36789b15F24094d6a8398D8F87E5a3a7a65b",
+      "owner": "founder",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        },
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        },
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE623F4a2Ad17e2951fe5b7D5c425d3931bE8EC61",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xE8F30b60B86eF84245e5d264dd054542bD7dd202",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "VECHAIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "VECHAIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "VECHAIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xEcA4f1dC6D589EC642c4F16E8293DC0Aa67499Ea",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xee083Da2bfa15538037BbC154A5d42b9c6599608",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/0"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/0"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xeE08913ca55c007e4aE6A393d23213163947eA5F",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xeF2B152d9b8b934915191c59595917F546D1BbEB",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/1"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/1"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xF14C8548971aa28bB3473722A99ee716a87240c5",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "YET_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/2"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "YET_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "BINANCE_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/2"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "YET_ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "BINANCE_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xF38baf047B33A902Cc089b3f2F0c35F7568d7835",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": "UNION_EVM_RELAYER",
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": "UNION_EVM_RELAYER",
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-public-identifier",
+          "locator": "UNION_EVM_RELAYER"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xF570Cd93fc7a65bF049BcdA262C73C6D2A186789",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        },
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OKX_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_EVM_WALLET"
+        },
+        {
+          "kind": "env-private-key",
+          "locator": "OKX_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xF608cbA321877BbbB15Dbc706Ffe6b921fFe38ED",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "RONIN",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/3"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "RONIN",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/3"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "RONIN"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xF64EF187C1e200447Adb259034a990539784158B",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/8"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/8"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "OH_LOOK_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xFa2d8a50F6E5e8B353163Dce34E032B4a51bFB6C",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FIGURES_MARKET_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/9"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FIGURES_MARKET_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/9"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FIGURES_MARKET_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xFA917946512dcC01D22623c02b9eA3E067A46140",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/6"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/6"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xfed9fc2faf1D21fdd5b106b701CEDe40D0a119CF",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "FOUND_ANOTHER_EVM_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "FOUND_ANOTHER_EVM_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "FOUND_ANOTHER_EVM_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xfF3fC15F0cB0D947648AD025481754e4b368a725",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "ANOTHER_SOLANA_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "ANOTHER_SOLANA_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "ANOTHER_SOLANA_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "base",
+      "address": "0xFF9aa9a12A14D4Ebc5218Ba179C9c26E64c9bfAb",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "env-on-host",
+        "host": "bare-cedar-fog",
+        "locator": "MOONSHOT_WALLET",
+        "reference": null,
+        "derivationPath": "m/44'/60'/0'/0/5"
+      },
+      "custodies": [
+        {
+          "kind": "env-on-host",
+          "host": "bare-cedar-fog",
+          "locator": "MOONSHOT_WALLET",
+          "reference": null,
+          "derivationPath": "m/44'/60'/0'/0/5"
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "env-private-key",
+          "locator": "MOONSHOT_WALLET"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c9A7b985d461cDD341DcDBd52D76473C66F4f5D",
+      "owner": "enterprise:rwil-rdf-services",
+      "role": "enterprise-account",
+      "relations": [
+        {
+          "kind": "signs-for",
+          "target": "0x495a59a567ec78a0bfe902d5363f195309a6bac7"
+        }
+      ],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2026-08-17-rwil-rdf-services-v3"
+        },
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2026-08-26-rwil-rdf-services-current"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xA17DF0F2124646ADb6740ab4F6Aae1ffD3b452e4",
+      "owner": "enterprise:infomaterial-observation",
+      "role": "enterprise-account",
+      "relations": [
+        {
+          "kind": "signs-for",
+          "target": "0x21e7e2c104bbbade4e629f84d1fbfa17ed7435cb"
+        }
+      ],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2026-07-20-infomaterial-observation-v1"
+        },
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2026-07-22-infomaterial-observation-v2"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa63BAdaef14472A1F066C4c18bB7FBD0D5E6a9A5",
+      "owner": "enterprise:rmn-semantic-conformance",
+      "role": "enterprise-account",
+      "relations": [
+        {
+          "kind": "signs-for",
+          "target": "0x55753eeb5794df507e7b411c788266a6a4df4dca"
+        }
+      ],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2026-08-17-rmn-semantic-conformance-v3"
+        },
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-systems-engineering-services-section/services/semiotic-computer-system-services-section/lib/legacy/2026-08-26-rmn-semantic-conformance-v4"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xFD8d75638daC92A71d8378a19463DC0Ac1e76F89",
+      "owner": "enterprise:activitypub-services-section",
+      "role": "enterprise-account",
+      "relations": [
+        {
+          "kind": "signs-for",
+          "target": "0x30806690aedb3fad182d234ef3003b3d69a32409"
+        }
+      ],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/treasury-observation-service/native",
+      "label": null,
+      "sources": [
+        {
+          "kind": "ethereum-census",
+          "locator": "computer-engineering-services-section/services/computer-networking-services-section/services/activitypub-services-section/lib/legacy/2026-07-20-bare-cedar-fog-koios-activitypub-service"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "hive",
+      "address": "emsenn0",
+      "owner": "founder",
+      "role": "treasury",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/hive-blockchain-client-service",
+      "label": null,
+      "sources": [
+        {
+          "kind": "carrier",
+          "locator": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "hive",
+      "address": "essiebee",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/hive-blockchain-client-service",
+      "label": null,
+      "sources": [
+        {
+          "kind": "carrier",
+          "locator": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "hive",
+      "address": "help-fund",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/hive-blockchain-client-service",
+      "label": null,
+      "sources": [
+        {
+          "kind": "carrier",
+          "locator": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "hive",
+      "address": "marshian",
+      "owner": "org",
+      "role": "auxiliary",
+      "relations": [],
+      "custody": {
+        "kind": "unknown",
+        "host": null,
+        "locator": null,
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "unknown",
+          "host": null,
+          "locator": null,
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/hive-blockchain-client-service",
+      "label": null,
+      "sources": [
+        {
+          "kind": "carrier",
+          "locator": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "hive",
+      "address": "michael561",
+      "owner": "enterprise:aagaard",
+      "role": "signer",
+      "relations": [],
+      "custody": {
+        "kind": "keystore-file",
+        "host": "cold-red-gate",
+        "locator": "~/.config/blockchain/hive/michael561/active.wif",
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "keystore-file",
+          "host": "cold-red-gate",
+          "locator": "~/.config/blockchain/hive/michael561/active.wif",
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/hive-blockchain-client-service",
+      "label": null,
+      "sources": [
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/hive-services-section/services/aagaard/scripts/cold-red-gate-arbitrage-broadcast.mjs (DEFAULT_KEY_ROOT JSDoc, verified 2026-09-05)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    },
+    {
+      "chain": "hive",
+      "address": "sigmund-vexler",
+      "owner": "enterprise:aagaard",
+      "role": "signer",
+      "relations": [],
+      "custody": {
+        "kind": "keystore-file",
+        "host": "cold-red-gate",
+        "locator": "~/.config/blockchain/hive/sigmund-vexler/active.wif",
+        "reference": null,
+        "derivationPath": null
+      },
+      "custodies": [
+        {
+          "kind": "keystore-file",
+          "host": "cold-red-gate",
+          "locator": "~/.config/blockchain/hive/sigmund-vexler/active.wif",
+          "reference": null,
+          "derivationPath": null
+        }
+      ],
+      "balanceReader": "@red-cup-engineering/hive-blockchain-client-service",
+      "label": null,
+      "sources": [
+        {
+          "kind": "carrier",
+          "locator": "public-web3-services-section/services/hive-services-section/services/aagaard/scripts/cold-red-gate-arbitrage-broadcast.mjs (DEFAULT_KEY_ROOT JSDoc, verified 2026-09-05)"
+        }
+      ],
+      "lastSeen": "2026-09-05T16:52:38.561Z"
+    }
+  ]
+}

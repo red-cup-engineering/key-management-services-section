@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "key-management-services-section/create-wallet-output",
+  "title": "createWalletOutput",
+  "description": "createWallet()'s result: either a refusal datum or the created wallet's public summary. Never carries private key material.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "created",
+        "reason"
+      ],
+      "properties": {
+        "created": {
+          "const": false
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "created",
+        "id",
+        "chain",
+        "address",
+        "custody",
+        "backup",
+        "metaPath",
+        "receipt"
+      ],
+      "properties": {
+        "created": {
+          "const": true
+        },
+        "id": {
+          "type": "string"
+        },
+        "chain": {
+          "enum": [
+            "base",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "hive",
+            "hive-engine"
+          ]
+        },
+        "address": {
+          "type": "string"
+        },
+        "custody": {
+          "type": "object"
+        },
+        "backup": {
+          "type": "object"
+        },
+        "metaPath": {
+          "type": "string"
+        },
+        "receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

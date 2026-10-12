@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "key-management-services-section/wallet-registry",
+  "title": "WalletRegistry",
+  "description": "One dated record naming every known 561 Group wallet, derived by derive-set-of-wallets.mjs -- never hand-written. A row's identity is {chain, address}; no row carries a nickname.",
+  "type": "object",
+  "required": [
+    "type",
+    "version",
+    "derivedAt",
+    "wallets"
+  ],
+  "properties": {
+    "type": {
+      "const": "WalletRegistry"
+    },
+    "version": {
+      "const": 1
+    },
+    "derivedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "wallets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/walletRow"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "walletRelation": {
+      "type": "object",
+      "required": [
+        "kind",
+        "target"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "funds",
+            "signs-for",
+            "controlled-by",
+            "consumed-by"
+          ]
+        },
+        "target": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "walletCustody": {
+      "type": "object",
+      "required": [
+        "kind",
+        "host",
+        "locator",
+        "reference",
+        "derivationPath"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "env-on-host",
+            "keystore-file",
+            "kms",
+            "hardware",
+            "founder-wallet-app",
+            "unknown"
+          ]
+        },
+        "host": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "derivationPath": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "walletSource": {
+      "type": "object",
+      "required": [
+        "kind",
+        "locator"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "env-private-key",
+            "env-public-identifier",
+            "keystore-file",
+            "ethereum-census",
+            "tree-relation",
+            "carrier",
+            "operator"
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "walletLabel": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "text",
+        "source"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "walletRow": {
+      "type": "object",
+      "required": [
+        "chain",
+        "address",
+        "owner",
+        "role",
+        "relations",
+        "custody",
+        "custodies",
+        "balanceReader",
+        "label",
+        "sources",
+        "lastSeen"
+      ],
+      "properties": {
+        "chain": {
+          "enum": [
+            "base",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "hive",
+            "hive-engine"
+          ]
+        },
+        "address": {
+          "type": "string",
+          "minLength": 1
+        },
+        "owner": {
+          "type": "string",
+          "pattern": "^(org|founder|enterprise:[A-Za-z0-9][A-Za-z0-9._-]*|character:[A-Za-z0-9][A-Za-z0-9._/-]*)$"
+        },
+        "role": {
+          "enum": [
+            "treasury",
+            "signer",
+            "policy-signer",
+            "enterprise-account",
+            "auxiliary",
+            "pool",
+            "game"
+          ]
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/walletRelation"
+          }
+        },
+        "custody": {
+          "$ref": "#/$defs/walletCustody"
+        },
+        "custodies": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/walletCustody"
+          }
+        },
+        "balanceReader": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "label": {
+          "$ref": "#/$defs/walletLabel"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/walletSource"
+          }
+        },
+        "lastSeen": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

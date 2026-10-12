@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "key-management-services-section/create-wallet-input",
+  "title": "createWalletInput",
+  "description": "The request createWallet() takes. passphrase and backupRoot are read from the runtime environment by the CLI entrypoint (KEY_PASSPHRASE, KEY_BACKUP_ROOT), never invented when absent.",
+  "type": "object",
+  "required": [
+    "id",
+    "chain",
+    "owner",
+    "role"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "chain": {
+      "enum": [
+        "base",
+        "ethereum",
+        "arbitrum",
+        "avalanche",
+        "hive",
+        "hive-engine"
+      ]
+    },
+    "owner": {
+      "type": "string",
+      "pattern": "^(org|founder|enterprise:[A-Za-z0-9][A-Za-z0-9._-]*|character:[A-Za-z0-9][A-Za-z0-9._/-]*)$"
+    },
+    "role": {
+      "enum": [
+        "treasury",
+        "signer",
+        "policy-signer",
+        "enterprise-account",
+        "auxiliary",
+        "pool",
+        "game"
+      ]
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "passphrase": {
+      "type": "string"
+    },
+    "backupRoot": {
+      "type": "string"
+    },
+    "home": {
+      "type": "string"
+    },
+    "registryPath": {
+      "type": "string"
+    },
+    "journalRoot": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

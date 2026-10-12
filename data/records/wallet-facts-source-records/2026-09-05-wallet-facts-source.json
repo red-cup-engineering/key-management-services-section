@@ -1,0 +1,63 @@
+{
+  "type": "WalletFactsSource",
+  "version": 1,
+  "recordedAt": "2026-09-05T00:00:00Z",
+  "description": "Hive accounts and Base wallets named in house carriers, folded by derive-set-of-wallets.mjs into WalletRegistry rows alongside the live env/keystore/census sources. A row's identity is {chain, address} only -- never a nickname; custody is recorded only where a carrier states it, every other wallet's custody is 'unknown', never guessed.",
+  "hiveAccounts": [
+    {
+      "account": "emsenn0",
+      "owner": "founder",
+      "role": "treasury",
+      "custody": { "kind": "unknown", "host": null, "locator": null },
+      "source": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+    },
+    {
+      "account": "michael561",
+      "owner": "enterprise:aagaard",
+      "role": "signer",
+      "custody": { "kind": "keystore-file", "host": "cold-red-gate", "locator": "~/.config/blockchain/hive/michael561/active.wif" },
+      "source": "public-web3-services-section/services/hive-services-section/services/aagaard/scripts/cold-red-gate-arbitrage-broadcast.mjs (DEFAULT_KEY_ROOT JSDoc, verified 2026-09-05)"
+    },
+    {
+      "account": "sigmund-vexler",
+      "owner": "enterprise:aagaard",
+      "role": "signer",
+      "custody": { "kind": "keystore-file", "host": "cold-red-gate", "locator": "~/.config/blockchain/hive/sigmund-vexler/active.wif" },
+      "source": "public-web3-services-section/services/hive-services-section/services/aagaard/scripts/cold-red-gate-arbitrage-broadcast.mjs (DEFAULT_KEY_ROOT JSDoc, verified 2026-09-05)"
+    },
+    {
+      "account": "help-fund",
+      "owner": "org",
+      "role": "auxiliary",
+      "custody": { "kind": "unknown", "host": null, "locator": null },
+      "source": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+    },
+    {
+      "account": "essiebee",
+      "owner": "org",
+      "role": "auxiliary",
+      "custody": { "kind": "unknown", "host": null, "locator": null },
+      "source": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+    },
+    {
+      "account": "marshian",
+      "owner": "org",
+      "role": "auxiliary",
+      "custody": { "kind": "unknown", "host": null, "locator": null },
+      "source": "561-group-finance-operations-services-section/content/text/documents/articles/notes/2026/09/04/2026-09-04-note-on-the-561-group-finance-stack.md#2-the-capital-measured-on-chain-today"
+    }
+  ],
+  "baseWallets": [
+    { "address": "0x32886F6F361C1d570255c2762967A2e41D0E9B1a", "owner": "founder", "role": "treasury", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x224C08A8526751887a83e2711B167f890c6D078d", "owner": "founder", "role": "treasury", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x11c575087cc453992ec150885889ee69c580eA45", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x87feF142FA3AF0c1E6D2908E0A916116944EA35D", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x8364be64F56DEA53f5ACb02798E9C6A34eC35c57", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x461f67c9D39A54979C658D5e03BAE1b734e44736", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0xE60A36789b15F24094d6a8398D8F87E5a3a7a65b", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x071C6a56C0FF7a9365137B3118eF03c179cE6768", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x181AaA0cF544a2E14b593Db34546bC1F054C37f7", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" },
+    { "address": "0x0291ff9223b6858fa8940D8fD88e4A7df35A22b7", "owner": "founder", "role": "auxiliary", "source": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1)" }
+  ],
+  "baseWalletFleetSource": "public-web3-services-section/services/agrodao/content/observations/public-accounts/evm-wallet-fleet.json (profile org.emsenn.evm.public-wallet-fleet.v1; authority.signerMaterialPresent is false there, so custody for every one of these rows is 'unknown' -- observation-only carrier, not a custody record). None of these rows carry a nickname: identity is {chain, address} only, per the 2026-09-05 ruling that a wallet is its address, never an AI character name."
+}

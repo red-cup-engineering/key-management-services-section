@@ -1,0 +1,72 @@
+{
+  "name": "@red-cup-engineering/key-management-services-section",
+  "version": "0.5.2",
+  "type": "module",
+  "description": "Key custody for the 561 Group's own wallets, spanning Base/Ethereum/Arbitrum/Avalanche (ethers keystore v3) and Hive/Hive-Engine (WIF): a derived WalletRegistry naming every known wallet, its owner, role, and custody; wallet creation with mandatory dual-copy encrypted custody; custody verification; mandate-bounded signing; and payment-receiver resolution so a caller only ever holds a walletId parameter, never a literal receiver address/account.",
+  "keywords": [
+    "561-group",
+    "key-management",
+    "custody",
+    "wallet",
+    "ethereum",
+    "hive",
+    "keystore",
+    "mandate"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/wallet-registry.mjs",
+    "./wallet-registry": "./src/wallet-registry.mjs",
+    "./mandate": "./src/mandate.mjs",
+    "./keystore-paths": "./src/keystore-paths.mjs",
+    "./derive-key-material": "./src/derive-key-material.mjs",
+    "./env-file": "./src/env-file.mjs",
+    "./derive-set-of-wallets": "./scripts/derive-set-of-wallets.mjs",
+    "./create-wallet": "./scripts/create-wallet.mjs",
+    "./verify-set-of-wallet-custody": "./scripts/verify-set-of-wallet-custody.mjs",
+    "./sign-with-wallet": "./scripts/sign-with-wallet.mjs",
+    "./resolve-payment-receiver": "./scripts/resolve-payment-receiver.mjs",
+    "./check-set-of-hardcoded-payment-receivers": "./scripts/check-set-of-hardcoded-payment-receivers.mjs",
+    "./key-management-cli": "./apps/key-management-cli.mjs",
+    "./wallet-registry.json": "./data/records/wallet-registry-records/2026-09-05-wallet-registry.json",
+    "./package.json": "./package.json",
+    "./hive-keystore": "./src/hive-keystore.mjs",
+    "./sort-hive-key-vault": "./scripts/sort-hive-key-vault.mjs",
+    "./chains": "./data/chains.mjs"
+  },
+  "bin": {
+    "key-management-cli": "apps/key-management-cli.mjs",
+    "hive-key": "./scripts/hive-key.mjs"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "apps",
+    "schemas",
+    "data/records/wallet-facts-source-records/2026-09-05-wallet-facts-source.json",
+    "data/records/wallet-registry-records/2026-09-05-wallet-registry.json",
+    "README.md",
+    "data/chains.mjs"
+  ],
+  "scripts": {
+    "check": "for f in src/*.mjs scripts/*.mjs apps/*.mjs; do node --check \"$f\" || exit 1; done",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/credential-custody-service": "workspace:*",
+    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
+    "@red-cup-engineering/ethereum-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/hive-blockchain-client-service": "workspace:*",
+    "@red-cup-engineering/json-schema-services-section": "workspace:*",
+    "ethers": "6.17.0",
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/witness-journal-document-service": "workspace:*"
+  },
+  "devDependencies": {
+    "@red-cup-engineering/computer-system-engine": "workspace:*"
+  },
+  "license": "UNLICENSED"
+}

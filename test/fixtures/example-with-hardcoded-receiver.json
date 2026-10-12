@@ -1,0 +1,4 @@
+{
+  "note": "This fixture intentionally carries a literal receiver so check-set-of-hardcoded-payment-receivers.mjs's own tests can prove the allowlist excludes it and prove a non-allowlisted copy is still caught.",
+  "receiver": "emsenn0"
+}
