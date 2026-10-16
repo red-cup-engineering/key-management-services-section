@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/key-management-services-section",
-  "version": "0.5.2",
+  "version": "0.5.5",
   "type": "module",
   "description": "Key custody for the 561 Group's own wallets, spanning Base/Ethereum/Arbitrum/Avalanche (ethers keystore v3) and Hive/Hive-Engine (WIF): a derived WalletRegistry naming every known wallet, its owner, role, and custody; wallet creation with mandatory dual-copy encrypted custody; custody verification; mandate-bounded signing; and payment-receiver resolution so a caller only ever holds a walletId parameter, never a literal receiver address/account.",
   "keywords": [
@@ -56,17 +56,18 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/credential-custody-service": "workspace:*",
-    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
-    "@red-cup-engineering/ethereum-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/hive-blockchain-client-service": "workspace:*",
-    "@red-cup-engineering/json-schema-services-section": "workspace:*",
     "ethers": "6.17.0",
-    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/witness-journal-document-service": "workspace:*"
+    "@red-cup-engineering/semiotic-eavt-services-section": "0.1.0",
+    "@red-cup-engineering/json-schema-services-section": "0.5.0",
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.1",
+    "@red-cup-engineering/credential-custody-service": "0.1.2",
+    "@red-cup-engineering/ethereum-engineering-services-section": "0.15.2",
+    "@red-cup-engineering/witness-journal-document-service": "0.1.2",
+    "@red-cup-engineering/hive-blockchain-client-service": "0.1.5"
   },
   "devDependencies": {
-    "@red-cup-engineering/computer-system-engine": "workspace:*"
+    "@red-cup-engineering/computer-system-engine": "0.1.2"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "private": false
 }
