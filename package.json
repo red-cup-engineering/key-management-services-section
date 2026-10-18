@@ -3,6 +3,11 @@
   "version": "0.5.5",
   "type": "module",
   "description": "Key custody for the 561 Group's own wallets, spanning Base/Ethereum/Arbitrum/Avalanche (ethers keystore v3) and Hive/Hive-Engine (WIF): a derived WalletRegistry naming every known wallet, its owner, role, and custody; wallet creation with mandatory dual-copy encrypted custody; custody verification; mandate-bounded signing; and payment-receiver resolution so a caller only ever holds a walletId parameter, never a literal receiver address/account.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
+    "directory": "services/computer-blockchain-system-services-section/services/key-management-services-section"
+  },
   "keywords": [
     "561-group",
     "key-management",
