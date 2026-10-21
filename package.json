@@ -72,6 +72,10 @@
   "devDependencies": {
     "@red-cup-engineering/computer-system-engine": "0.1.2"
   },
-  "license": "UNLICENSED",
-  "private": false
+  "license": "MIT",
+  "private": false,
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
