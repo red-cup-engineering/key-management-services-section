@@ -61,8 +61,8 @@
   },
   "dependencies": {
     "ethers": "6.17.0",
-    "@red-cup-engineering/semiotic-eavt-services-section": "0.1.0",
-    "@red-cup-engineering/json-schema-services-section": "0.5.0",
+    "@red-cup-engineering/semiotic-eavt-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/json-schema-engineering-services-section": "0.5.0",
     "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.1",
     "@red-cup-engineering/credential-custody-service": "0.1.2",
     "@red-cup-engineering/ethereum-engineering-services-section": "0.15.2",
